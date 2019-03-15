@@ -1,0 +1,6 @@
+All this steps will run in bash. 
+
+1. First I compiled header.h  with structure.cpp using "gcc structure.cpp -c -o conect"
+2. I created "conect" from the bash compilation.
+3. After that I compiled "g++ gslintegrator.cpp -lgsl -o conect"
+4. For Last I compiled ./a.out
